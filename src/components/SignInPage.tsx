@@ -10,7 +10,7 @@ const SignInPage = () => {
   return (
     <MainDiv>
         {
-            isSignedIn?<SignIn/> : <Home/>
+            isSignedIn?<Home/> : <SignIn/>
         }
     </MainDiv>
   )
